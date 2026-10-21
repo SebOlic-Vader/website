@@ -25,11 +25,10 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      # Solange die eigene Domain noch nicht eingerichtet ist, liegt die Seite unter /website/ auf github.io.
-      # Sobald sebastianoelmann.de aktiv ist: PATH_PREFIX auf "/" setzen.
+      # Die Seite liegt direkt unter sebastianoelmann.de; ohne eigene Domain müsste hier /website/ stehen.
       - run: npx @11ty/eleventy --pathprefix="$PATH_PREFIX"
         env:
-          PATH_PREFIX: /website/
+          PATH_PREFIX: /
       - uses: actions/configure-pages@v5
         with:
           enablement: true
