@@ -40,3 +40,17 @@ Das Titelbild liegt als `src/assets/img/hero.jpg` (für das Web verkleinert). Di
 ## Veröffentlichen
 
 Änderungen mit Git auf den Zweig `main` schieben. Der Ablauf in `.github/workflows/deploy.yml` baut die Seite und stellt sie über GitHub Pages bereit. Die Adresse steht in `src/CNAME`.
+
+## Domain einrichten (einmalig)
+
+Bei INWX unter „Nameserver“ für `sebastianoelmann.de` diese Einträge anlegen (bestehende A- oder AAAA-Einträge für die nackte Domain vorher löschen):
+
+| Typ | Name | Wert |
+| --- | --- | --- |
+| A | (leer / @) | 185.199.108.153 |
+| A | (leer / @) | 185.199.109.153 |
+| A | (leer / @) | 185.199.110.153 |
+| A | (leer / @) | 185.199.111.153 |
+| CNAME | www | seboli-vader.github.io |
+
+Danach auf GitHub unter Settings → Pages → „Custom domain“ `sebastianoelmann.de` eintragen, speichern, und nach der Prüfung „Enforce HTTPS“ anhaken. Zuletzt in `.github/workflows/deploy.yml` den Wert `PATH_PREFIX` auf `/` setzen.
