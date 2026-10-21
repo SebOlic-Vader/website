@@ -39,7 +39,7 @@ Das Titelbild liegt als `src/assets/img/hero.jpg` (für das Web verkleinert). Di
 
 ## Veröffentlichen
 
-Änderungen mit Git auf den Zweig `main` schieben. Der Ablauf in `.github/workflows/deploy.yml` baut die Seite und stellt sie über GitHub Pages bereit. Die Adresse steht in `src/CNAME`.
+Änderungen mit Git auf den Zweig `main` schieben. Der Ablauf in `.github/workflows/deploy.yml` baut die Seite und stellt sie über GitHub Pages bereit. Die eigene Domain wird in den GitHub-Einstellungen unter Pages → „Custom domain“ eingetragen.
 
 ## Domain einrichten (einmalig)
 
