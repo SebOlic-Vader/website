@@ -66,7 +66,7 @@ th { font-weight: 500; }
 .kopf__menue a { display: block; padding: 10px 18px; color: var(--text); text-transform: uppercase; letter-spacing: .06em; font-size: 14px; }
 
 /* Titelbild */
-.held { position: relative; height: clamp(230px, 28vw, 400px); background: var(--blau) url(../img/hero.svg) center / cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; color: #fff; }
+.held { position: relative; height: clamp(230px, 28vw, 400px); background: var(--blau) url(../img/hero.jpg) center / cover no-repeat; display: flex; align-items: center; justify-content: center; text-align: center; color: #fff; }
 .held--klein { height: clamp(190px, 22vw, 300px); }
 .held__text { padding: 0 20px; text-shadow: 0 2px 18px rgba(0,0,0,.35); }
 .held__name { margin: 0; font-weight: 700; font-size: clamp(38px, 7vw, 92px); line-height: 1; letter-spacing: .01em; text-transform: uppercase; }

@@ -31,7 +31,11 @@ npm install
 npm run dev
 ```
 
-Dann `http://localhost:8080` im Browser öffnen. `npm run hero` erzeugt das Titelbild neu.
+Dann `http://localhost:8080` im Browser öffnen.
+
+## Bilder
+
+Das Titelbild liegt als `src/assets/img/hero.jpg` (für das Web verkleinert). Die Originale aus Higgsfield und die nicht verwendeten Alternativen liegen in `bilder/titelbild/`; dieser Ordner wird nicht mit veröffentlicht.
 
 ## Veröffentlichen
 

@@ -2,18 +2,22 @@
 layout: seite.njk
 title: Über mich
 permalink: /ueber-mich/
-description: "Sebastian Oelmann: Lehrer, Fortbildner an der Akademie für Lehrerfortbildung und Personalführung Dillingen, Themen Künstliche Intelligenz und Lernen."
+description: "Sebastian Oelmann: Gymnasiallehrer für Deutsch, Sport, Philosophie und Medienpädagogik; am KI-Kompetenzzentrum der ALP Dillingen zuständig für Lernen und Arbeiten mit KI."
 ---
 <img class="portraet" src="{{ site.portraet }}" alt="Porträt von Sebastian Oelmann" width="150" height="150" style="float:right;margin:0 0 1em 1.5em">
 
-Ich bin Lehrer und arbeite als Fortbildner an der Akademie für Lehrerfortbildung und Personalführung (ALP) in Dillingen an der Donau. Mein Fach ist Deutsch; mein Thema ist die Frage, wie Lernen gelingt, wenn Künstliche Intelligenz im Klassenzimmer angekommen ist.
+Ich bin Gymnasiallehrer für Deutsch, Sport, Philosophie und Medienpädagogik. Neben dem Unterricht arbeite ich am KI-Kompetenzzentrum (KIKO) der Akademie für Lehrerfortbildung und Personalführung in Dillingen an der Donau. Dort verantworte ich den Bereich „Lernen und Arbeiten mit KI“ und entwickle praxisorientierte Fortbildungen für den schulischen Einsatz von Künstlicher Intelligenz. Mein Ziel dabei: zeitgemäßer Unterricht in einer Kultur der Digitalität, in dem Schülerinnen und Schüler mit KI arbeiten, ohne das Denken an sie abzugeben.
+
+## Woher ich komme
+
+Schulentwicklung ist seit Jahren mein Praxisfeld. In Schulversuchen wie „KI@School“ und „Prüfungskultur innovativ“ habe ich erlebt, was es heißt, neue Technologien in den Schulalltag zu holen und Prüfungen so zu gestalten, dass sie zu diesem Alltag passen. Vieles von dem, was ich in Fortbildungen weitergebe, ist dort entstanden: im Unterricht, in Konferenzen, im Ausprobieren.
 
 ## Womit ich mich beschäftige
 
-- **Künstliche Intelligenz im Unterricht:** Fortbildungen für Lehrkräfte, von den Grundlagen bis zu konkreten Unterrichtsszenarien.
-- **Selbstreguliertes Lernen:** Wie Schülerinnen und Schüler mit digitalen Werkzeugen eigenständiger lernen können, ohne dass das Denken ausgelagert wird.
-- **Lernmaterialien und Lernvideos:** Selbstlernkurse, Erklärvideos und Lernpakete für Lernplattformen.
-- **Eigene Werkzeuge:** Die iPad-App [TeamUp](/teamup/) ist aus dem eigenen Unterrichtsalltag entstanden.
+- **Lernen und Arbeiten mit KI:** Fortbildungen für Lehrkräfte aller Schularten, von den Grundlagen bis zu konkreten Unterrichtsszenarien und Prüfungsformaten.
+- **Selbstreguliertes Lernen:** Wie Lernende mit digitalen Werkzeugen eigenständiger werden, und wo Lehrkräfte dabei unverzichtbar bleiben.
+- **Lernmaterialien und Lernvideos:** Selbstlernkurse, Erklärvideos und Lernpakete für Lernplattformen wie Moodle und mebis.
+- **Eigene Werkzeuge:** Die iPad-App [TeamUp](/teamup/) ist aus dem eigenen Unterrichtsalltag entstanden: Gruppen bilden, Sitzpläne erstellen, Turniere planen, ohne dass Schülerdaten das Gerät verlassen.
 
 ## Kontakt
 

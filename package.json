@@ -5,8 +5,7 @@
   "description": "Persönliche Website von Sebastian Oelmann",
   "scripts": {
     "build": "eleventy",
-    "dev": "eleventy --serve --port 8080",
-    "hero": "node scripts/make-hero.js"
+    "dev": "eleventy --serve --port 8080"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.1.7",
