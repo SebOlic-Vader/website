@@ -8,7 +8,7 @@ description: "Impressum der Website sebastianoelmann.de."
 
 <div class="kasten">
 <p>{{ site.anbieter.name }}<br>{{ site.anbieter.anschrift | join("<br>") | safe }}</p>
-<p>E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p>E-Mail: {{ site.email | mailLink | safe }}</p>
 </div>
 
 Verantwortlich für die Inhalte dieser Website ist die oben genannte Person. Dies ist eine private Website ohne gewerblichen Zweck.

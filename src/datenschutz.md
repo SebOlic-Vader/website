@@ -9,7 +9,7 @@ Diese Website ist bewusst sparsam gebaut: Sie setzt keine Cookies, bindet keine 
 ## Verantwortlich
 
 <div class="kasten">
-<p>{{ site.anbieter.name }}<br>{{ site.anbieter.anschrift | join("<br>") | safe }}<br>E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p>{{ site.anbieter.name }}<br>{{ site.anbieter.anschrift | join("<br>") | safe }}<br>E-Mail: {{ site.email | mailLink | safe }}</p>
 </div>
 
 ## Hosting

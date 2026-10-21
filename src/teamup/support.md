@@ -13,7 +13,7 @@ TeamUp teilt deine Klasse in Gruppen ein, erstellt Sitzpläne als Klassenzimmer 
 ## Kontakt
 
 <div class="kasten">
-<p>Fragen, Fehler oder Wünsche: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p>Fragen, Fehler oder Wünsche: {{ site.email | mailLink | safe }}</p>
 </div>
 
 ## Häufige Fragen

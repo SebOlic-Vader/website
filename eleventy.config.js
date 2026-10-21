@@ -27,6 +27,11 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("datumISO", (d) => new Date(d).toISOString());
   eleventyConfig.addFilter("limit", (arr, n) => arr.slice(0, n));
   eleventyConfig.addFilter("ohneDatum", (slug) => String(slug).replace(/^\d{4}-\d{2}-\d{2}-/, ""));
+  // Schreibt eine E-Mail-Adresse als Link, Zeichen für Zeichen kodiert, damit einfache Sammelprogramme sie schlechter lesen.
+  eleventyConfig.addFilter("mailLink", (adresse) => {
+    const kod = [...String(adresse)].map((z) => `&#${z.charCodeAt(0)};`).join("");
+    return `<a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;${kod}">${kod}</a>`;
+  });
   eleventyConfig.addFilter("jahr", () => new Date().getFullYear());
 
   return {

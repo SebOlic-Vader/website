@@ -29,7 +29,7 @@ Du kannst einzelne Klassen jederzeit in der App löschen. Mit dem Löschen der A
 ## Verantwortlich
 
 <div class="kasten">
-<p>{{ site.anbieter.name }}<br>{{ site.anbieter.anschrift | join("<br>") | safe }}<br>Fragen zum Datenschutz: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p>{{ site.anbieter.name }}<br>{{ site.anbieter.anschrift | join("<br>") | safe }}<br>Fragen zum Datenschutz: {{ site.email | mailLink | safe }}</p>
 </div>
 
 <small>Stand: {{ site.anbieter.standTeamUp }}. Hinweis für Lehrkräfte: Ob und wie die App an deiner Schule eingesetzt werden darf, richtet sich nach den dortigen Vorgaben.</small>

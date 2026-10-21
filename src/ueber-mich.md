@@ -22,6 +22,6 @@ Schulentwicklung ist seit Jahren mein Praxisfeld. In Schulversuchen wie „KI@Sc
 ## Kontakt
 
 <div class="kasten" id="kontakt">
-<p>Am einfachsten erreichst du mich per E-Mail: <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+<p>Am einfachsten erreichst du mich per E-Mail: {{ site.email | mailLink | safe }}</p>
 <p>Fragen zur App TeamUp bitte über die <a href="/teamup/support/">Support-Seite</a>.</p>
 </div>
