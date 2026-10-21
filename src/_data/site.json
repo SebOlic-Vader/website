@@ -51,13 +51,13 @@
     }
   ],
   "anbieter": {
-    "name": "[Vor- und Nachname eintragen]",
+    "name": "Sebastian Oelmann",
     "anschrift": [
       "[Straße und Hausnummer eintragen]",
       "[Postleitzahl und Ort eintragen]"
     ],
-    "standWebsite": "[Datum eintragen]",
-    "standTeamUp": "[Datum eintragen]"
+    "standWebsite": "21. Oktober 2026",
+    "standTeamUp": "21. Oktober 2026"
   },
   "portraet": "/assets/img/portraet-platzhalter.svg"
 }
