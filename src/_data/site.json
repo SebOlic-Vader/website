@@ -1,0 +1,63 @@
+{
+  "name": "Sebastian Oelmann",
+  "url": "https://sebastianoelmann.de",
+  "untertitel": "Lehrer · Fortbildner · Digitale Bildung",
+  "beschreibung": "Persönliche Website von Sebastian Oelmann: Gedanken zu Schule, Lernen und Künstlicher Intelligenz, die iPad-App TeamUp und Materialien aus Fortbildungen.",
+  "email": "[E-Mail-Adresse eintragen]",
+  "navigation": [
+    {
+      "titel": "Start",
+      "url": "/"
+    },
+    {
+      "titel": "Blog",
+      "url": "/blog/"
+    },
+    {
+      "titel": "TeamUp",
+      "url": "/teamup/"
+    },
+    {
+      "titel": "Über mich",
+      "url": "/ueber-mich/"
+    }
+  ],
+  "seitenleiste": [
+    {
+      "titel": "Aktuelles",
+      "url": "/blog/"
+    },
+    {
+      "titel": "Über mich",
+      "url": "/ueber-mich/"
+    },
+    {
+      "titel": "TeamUp (App)",
+      "url": "/teamup/",
+      "unter": [
+        {
+          "titel": "Support",
+          "url": "/teamup/support/"
+        },
+        {
+          "titel": "Datenschutz der App",
+          "url": "/teamup/datenschutz/"
+        }
+      ]
+    },
+    {
+      "titel": "Kontakt",
+      "url": "/ueber-mich/#kontakt"
+    }
+  ],
+  "anbieter": {
+    "name": "[Vor- und Nachname eintragen]",
+    "anschrift": [
+      "[Straße und Hausnummer eintragen]",
+      "[Postleitzahl und Ort eintragen]"
+    ],
+    "standWebsite": "[Datum eintragen]",
+    "standTeamUp": "[Datum eintragen]"
+  },
+  "portraet": "/assets/img/portraet-platzhalter.svg"
+}

@@ -1,0 +1,5 @@
+{
+  "layout": "post.njk",
+  "tags": ["beitrag"],
+  "permalink": "/blog/{{ page.fileSlug | ohneDatum }}/"
+}

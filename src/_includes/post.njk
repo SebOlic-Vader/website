@@ -1,0 +1,17 @@
+---
+layout: base.njk
+bereich:
+  titel: Blog
+  url: /blog/
+---
+<article class="beitrag">
+  <header class="beitrag__kopf">
+    <h1>{{ title }}</h1>
+    <p class="datum"><svg class="ikon" viewBox="0 0 16 16" aria-hidden="true"><path d="M3 2h1V1h1v1h6V1h1v1h1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zm0 3v8h10V5H3z"/></svg><time datetime="{{ page.date | datumISO }}">{{ page.date | datumLang }}</time></p>
+  </header>
+  {% if bild %}<img class="beitrag__bild" src="{{ bild }}" alt="{{ bildAlt or '' }}">{% endif %}
+  <div class="beitrag__text">
+    {{ content | safe }}
+  </div>
+  <p class="beitrag__zurueck"><a class="knopf" href="/blog/">← Alle Beiträge</a></p>
+</article>

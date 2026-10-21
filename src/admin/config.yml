@@ -1,0 +1,60 @@
+# Einstellungen für den Browser-Editor (Sveltia CMS) unter /admin/
+backend:
+  name: github
+  repo: SebOlic-Vader/website
+  branch: main
+
+site_url: https://sebastianoelmann.de
+display_url: https://sebastianoelmann.de
+locale: de
+
+media_folder: src/assets/img/blog
+public_folder: /assets/img/blog
+
+slug:
+  encoding: ascii
+  clean_accents: true
+
+collections:
+  - name: beitraege
+    label: Blogbeiträge
+    label_singular: Beitrag
+    folder: src/posts
+    create: true
+    extension: md
+    format: yaml-frontmatter
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    summary: "{{title}} – {{date | date('DD.MM.YYYY')}}"
+    sortable_fields: [date, title]
+    preview_path: "blog/{{slug}}/"
+    fields:
+      - { name: title, label: Titel, widget: string }
+      - { name: date, label: Datum, widget: datetime, format: "YYYY-MM-DD", date_format: "DD.MM.YYYY", time_format: false, picker_utc: true }
+      - { name: description, label: Kurzbeschreibung (Anriss in der Liste), widget: text, required: false }
+      - { name: bild, label: Bild, widget: image, required: false }
+      - { name: bildAlt, label: Bildbeschreibung (für Vorlesen und Suchmaschinen), widget: string, required: false }
+      - { name: entwurf, label: Entwurf (noch nicht veröffentlichen), widget: boolean, default: false, required: false }
+      - { name: body, label: Text, widget: markdown }
+
+  - name: seiten
+    label: Feste Seiten
+    files:
+      - name: ueber-mich
+        label: Über mich
+        file: src/ueber-mich.md
+        fields:
+          - { name: title, label: Titel, widget: string }
+          - { name: description, label: Kurzbeschreibung, widget: text, required: false }
+          - { name: layout, widget: hidden, default: seite.njk }
+          - { name: permalink, widget: hidden, default: /ueber-mich/ }
+          - { name: body, label: Text, widget: markdown }
+      - name: teamup
+        label: TeamUp (App-Seite)
+        file: src/teamup/index.md
+        fields:
+          - { name: title, label: Titel, widget: string }
+          - { name: description, label: Kurzbeschreibung, widget: text, required: false }
+          - { name: layout, widget: hidden, default: seite.njk }
+          - { name: permalink, widget: hidden, default: /teamup/ }
+          - { name: bereich, widget: hidden }
+          - { name: body, label: Text, widget: markdown }

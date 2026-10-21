@@ -1,0 +1,38 @@
+# Website sebastianoelmann.de
+
+Persönliche Website mit Blog. Die Seiten entstehen aus einfachen Textdateien im Ordner `src/`; daraus baut das Werkzeug Eleventy die fertige Website in `_site/`. GitHub Pages veröffentlicht sie automatisch bei jeder Änderung auf dem Hauptzweig.
+
+## Einen Blogbeitrag schreiben
+
+**Im Browser:** `https://sebastianoelmann.de/admin/` öffnen, mit dem GitHub-Zugangsschlüssel anmelden, „Blogbeiträge“ → „Neu“. Speichern veröffentlicht den Beitrag; nach ein bis zwei Minuten ist er online. Haken bei „Entwurf“ setzen, wenn der Beitrag noch nicht erscheinen soll.
+
+**Als Datei:** Neue Datei `src/posts/JJJJ-MM-TT-kurzer-titel.md` anlegen:
+
+```
+---
+title: Überschrift des Beitrags
+description: Ein bis zwei Sätze als Anriss in der Liste.
+bild: /assets/img/blog/bildname.jpg
+---
+Hier beginnt der Text. Absätze durch Leerzeilen trennen,
+**fett** mit zwei Sternchen, Links so: [Text](https://…).
+```
+
+Das Datum kommt aus dem Dateinamen, die Adresse des Beitrags aus dem Rest (`/blog/kurzer-titel/`). Bilder in `src/assets/img/blog/` ablegen.
+
+## Feste Angaben ändern
+
+`src/_data/site.json`: Name, Untertitel im Titelbild, E-Mail-Adresse, Anbieterangaben für Impressum und Datenschutz, Menüpunkte. `src/ueber-mich.md`, `src/impressum.md`, `src/datenschutz.md` und `src/teamup/` sind normale Textseiten.
+
+## Lokal ansehen
+
+```
+npm install
+npm run dev
+```
+
+Dann `http://localhost:8080` im Browser öffnen. `npm run hero` erzeugt das Titelbild neu.
+
+## Veröffentlichen
+
+Änderungen mit Git auf den Zweig `main` schieben. Der Ablauf in `.github/workflows/deploy.yml` baut die Seite und stellt sie über GitHub Pages bereit. Die Adresse steht in `src/CNAME`.

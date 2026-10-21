@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if title %}{{ title }} – {% endif %}{{ site.name }}</title>
+<meta name="description" content="{{ description or site.beschreibung }}">
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }} – Blog" href="/feed.xml">
+<link rel="canonical" href="{{ site.url }}{{ page.url }}">
+<meta property="og:title" content="{{ title or site.name }}">
+<meta property="og:description" content="{{ description or site.beschreibung }}">
+<meta property="og:type" content="{{ 'article' if layout == 'post.njk' else 'website' }}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+{% if bild %}<meta property="og:image" content="{{ site.url }}{{ bild }}">{% endif %}
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+
+<header class="kopf">
+  <div class="kopf__innen">
+    <a class="kopf__marke" href="/" aria-label="Startseite">
+      <img src="/assets/img/marke.svg" alt="" width="36" height="36">
+      <span>{{ site.name }}</span>
+    </a>
+    <nav class="kopf__nav" aria-label="Hauptnavigation">
+      <ul>
+        {%- for n in site.navigation %}
+        <li><a href="{{ n.url }}"{% if page.url == n.url or (n.url != '/' and page.url.startsWith(n.url)) %} aria-current="page"{% endif %}>{{ n.titel }}</a></li>
+        {%- endfor %}
+      </ul>
+    </nav>
+    <details class="kopf__menue">
+      <summary aria-label="Menü öffnen"><span></span><span></span><span></span></summary>
+      <ul>
+        {%- for n in site.navigation %}
+        <li><a href="{{ n.url }}">{{ n.titel }}</a></li>
+        {%- endfor %}
+      </ul>
+    </details>
+  </div>
+</header>
+
+<section class="held{% if page.url != '/' %} held--klein{% endif %}" role="img" aria-label="{{ site.name }} – {{ site.untertitel }}">
+  <div class="held__text">
+    <p class="held__name">{{ site.name }}</p>
+    <p class="held__unter">{{ site.untertitel }}</p>
+  </div>
+</section>
+
+{% if page.url != '/' %}
+<nav class="pfad" aria-label="Sie sind hier">
+  <ol>
+    <li><a href="/">Start</a></li>
+    {%- if bereich %}<li><a href="{{ bereich.url }}">{{ bereich.titel }}</a></li>{% endif %}
+    <li aria-current="page">{{ pfadTitel or title }}</li>
+  </ol>
+</nav>
+{% endif %}
+
+<div class="rahmen{% if page.url == '/' %} rahmen--start{% endif %}">
+  <aside class="seite" aria-label="Bereiche">
+    <ul class="seite__liste">
+      {%- for s in site.seitenleiste %}
+      <li{% if page.url == s.url %} class="aktiv"{% endif %}><a href="{{ s.url }}">{{ s.titel }}</a>
+        {%- if s.unter %}
+        <ul>
+          {%- for u in s.unter %}
+          <li{% if page.url == u.url %} class="aktiv"{% endif %}><a href="{{ u.url }}">{{ u.titel }}</a></li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+      </li>
+      {%- endfor %}
+    </ul>
+  </aside>
+
+  <main id="inhalt" class="inhalt">
+    {{ content | safe }}
+  </main>
+</div>
+
+<footer class="fuss">
+  <p>© {{ '' | jahr }} {{ site.name }}</p>
+  <p class="fuss__links">
+    <a href="/impressum/">Impressum</a>
+    <a href="/datenschutz/">Datenschutz</a>
+    <a href="/ueber-mich/#kontakt">Kontakt</a>
+    <a href="/feed.xml">RSS</a>
+  </p>
+</footer>
+</body>
+</html>

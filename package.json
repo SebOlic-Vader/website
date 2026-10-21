@@ -1,0 +1,16 @@
+{
+  "name": "sebastianoelmann.de",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Persönliche Website von Sebastian Oelmann",
+  "scripts": {
+    "build": "eleventy",
+    "dev": "eleventy --serve --port 8080",
+    "hero": "node scripts/make-hero.js"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.7",
+    "@fontsource/roboto-condensed": "^5.3.0"
+  },
+  "type": "module"
+}
