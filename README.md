@@ -51,6 +51,6 @@ Bei INWX unter „Nameserver“ für `sebastianoelmann.de` diese Einträge anleg
 | A | (leer / @) | 185.199.109.153 |
 | A | (leer / @) | 185.199.110.153 |
 | A | (leer / @) | 185.199.111.153 |
-| CNAME | www | seboli-vader.github.io |
+| CNAME | www | sebolic-vader.github.io |
 
 Danach auf GitHub unter Settings → Pages → „Custom domain“ `sebastianoelmann.de` eintragen, speichern, und nach der Prüfung „Enforce HTTPS“ anhaken. Zuletzt in `.github/workflows/deploy.yml` den Wert `PATH_PREFIX` auf `/` setzen.
