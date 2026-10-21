@@ -1,7 +1,10 @@
 // Baut aus den Dateien in src/ die fertige Website in _site/.
+import { HtmlBasePlugin } from "@11ty/eleventy";
 const MONATE = ["Januar","Februar","März","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"];
 
 export default function (eleventyConfig) {
+  // Passt alle Links an, wenn die Seite unter einem Unterpfad liegt (z. B. vorläufig auf github.io).
+  eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
   eleventyConfig.addPassthroughCopy({ "src/CNAME": "CNAME" });
