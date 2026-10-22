@@ -116,6 +116,7 @@ th { font-weight: 500; }
 .kachel { border: 1px solid var(--linie); border-top: 4px solid var(--kobalt); padding: 20px; background: #fff; transition: box-shadow .2s, transform .2s; }
 .kachel:nth-child(2) { border-top-color: var(--cyan); }
 .kachel:nth-child(3) { border-top-color: var(--gold); }
+.kachel:nth-child(4) { border-top-color: var(--orange); }
 .kachel:hover { box-shadow: 0 8px 24px rgba(15,35,71,.12); transform: translateY(-2px); }
 .kachel h3 { margin-top: 0; font-size: 20px; }
 .kachel p { margin-bottom: .6em; }
