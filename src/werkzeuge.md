@@ -14,7 +14,7 @@ Hier stehen Werkzeuge, die ich für meinen Alltag in Schule und Fortbildung geba
   </div>
   <div class="kachel">
     <h3>Wasserzeichen prüfen</h3>
-    <p>Findet unsichtbare Zeichen in Texten sowie Metadaten in Bildern und Videos und entfernt sie, direkt im Browser.</p>
+    <p>Findet unsichtbare Zeichen und typische KI-Stilmuster in Texten sowie Metadaten in Bildern und Videos, direkt im Browser.</p>
     <a class="mehr" href="https://wasserzeichen.sebastianoelmann.de/">Zum Werkzeug →</a>
   </div>
 </div>
