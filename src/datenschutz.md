@@ -4,7 +4,7 @@ title: Datenschutz
 permalink: /datenschutz/
 description: "Datenschutzerklärung der Website sebastianoelmann.de."
 ---
-Diese Website ist bewusst sparsam gebaut: Sie setzt keine Cookies, bindet keine Werbung, keine Analyse-Dienste und keine Inhalte von Drittanbietern ein. Schriften werden von dieser Website selbst ausgeliefert, nicht von einem externen Dienst.
+Diese Website setzt keine Cookies und bindet weder Werbung noch Analyse-Dienste noch Inhalte von Drittanbietern ein. Die Schriften liefert die Website selbst aus.
 
 ## Verantwortlich
 

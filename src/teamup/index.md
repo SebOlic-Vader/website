@@ -5,21 +5,21 @@ permalink: /teamup/
 bereich:
   titel: Werkzeuge
   url: /werkzeuge/
-description: "TeamUp ist eine iPad-App für Lehrkräfte: Gruppen bilden, Sitzpläne erstellen, Turniere planen. Ohne Konto, ohne Internet, alle Daten bleiben auf dem Gerät."
+description: "TeamUp ist eine iPad-App für Lehrkräfte. Sie bildet Gruppen, erstellt Sitzpläne und plant Turniere, ohne Konto und ohne Internet; alle Daten bleiben auf dem Gerät."
 ---
-TeamUp ist eine App für das iPad, die Lehrkräften drei alltägliche Aufgaben abnimmt:
+TeamUp ist eine App für das iPad. Sie übernimmt drei Aufgaben, die im Unterricht regelmäßig anfallen.
 
-- **Gruppen bilden:** zufällig, nach Regeln (wer zusammen darf, wer nicht) oder mit festen Rollen.
-- **Sitzpläne erstellen:** das Klassenzimmer von oben, mit Tischen, die sich frei anordnen lassen.
-- **Turniere planen:** Spielpläne für den Sportunterricht oder Klassenwettbewerbe.
+- **Gruppen bilden.** Zufällig, nach Regeln (wer zusammen darf und wer nicht) oder mit festen Rollen.
+- **Sitzpläne erstellen.** Die App zeigt das Klassenzimmer von oben; die Tische lassen sich frei anordnen.
+- **Turniere planen.** Spielpläne für den Sportunterricht oder für Klassenwettbewerbe.
 
-## Datenschutz von Anfang an
+## Datenschutz
 
-Die App arbeitet ohne Benutzerkonto und ohne Internet. Klassenlisten werden nur auf dem Gerät gespeichert, nicht in iCloud oder in Backups aufgenommen, und verlassen das iPad nur, wenn du selbst etwas teilst, zum Beispiel einen Sitzplan als PDF. Es gibt keine Werbung und keine Analyse-Dienste.
+Die App arbeitet ohne Benutzerkonto und ohne Internet. Sie speichert Klassenlisten nur auf dem Gerät, nimmt sie nicht in iCloud oder Backups auf und gibt sie nur weiter, wenn du selbst etwas teilst, zum Beispiel einen Sitzplan als PDF. Die App enthält keine Werbung und keine Analyse-Dienste.
 
 ## Verfügbarkeit
 
-TeamUp wird derzeit für den App Store vorbereitet. Sobald die App verfügbar ist, erscheint hier der Link.
+TeamUp wird derzeit für den App Store vorbereitet. Sobald die App dort erhältlich ist, steht hier der Link.
 
 <div class="kasten">
 <p><a href="/teamup/support/">Support und häufige Fragen</a> · <a href="/teamup/datenschutz/">Datenschutzerklärung der App</a></p>
