@@ -10,7 +10,7 @@ Ich bin gelernter Gymnasiallehrer für Deutsch, Sport, Philosophie und Medienpä
 
 ## Woher ich komme
 
-Schulentwicklung ist seit Jahren mein Praxisfeld. In Schulversuchen wie „KI@School“ und „Prüfungskultur innovativ“ habe ich erlebt, was es heißt, neue Technologien in den Schulalltag zu holen und Prüfungen so zu gestalten, dass sie zu diesem Alltag passen. Dabei konnte ich mich auch gestaltend einbringen: In diesem Jahr habe ich ein Prüfungsformat mitentwickelt, das inzwischen an Schulen zum Einsatz kommt. Vieles von dem, was ich in Fortbildungen weitergebe, ist genau dort entstanden: im Unterricht, in Konferenzen, im Ausprobieren.
+Schulentwicklung ist seit Jahren mein Praxisfeld. In Schulversuchen wie „KI@School“ und „Prüfungskultur innovativ“ habe ich erlebt, was es heißt, neue Technologien in den Schulalltag zu holen und Prüfungen so zu gestalten, dass sie zu diesem Alltag passen. An der Gestaltung neuer Prüfungsformate war ich aktiv beteiligt; eines davon kommt in diesem Schuljahr erstmals zum Einsatz. Diese Erfahrung prägt meine Fortbildungen: Ich gebe weiter, was sich im Unterricht bewährt hat, und sage auch, was nicht funktioniert.
 
 ## Meine Schwerpunkte
 
