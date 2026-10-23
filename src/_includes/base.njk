@@ -20,10 +20,6 @@
 
 <header class="kopf">
   <div class="kopf__innen">
-    <a class="kopf__marke" href="/" aria-label="Startseite">
-      <img src="/assets/img/marke.svg" alt="" width="36" height="36">
-      <span>{{ site.name }}</span>
-    </a>
     <nav class="kopf__nav" aria-label="Hauptnavigation">
       <ul>
         {%- for n in site.navigation %}
@@ -42,10 +38,9 @@
   </div>
 </header>
 
-<section class="held{% if page.url != '/' %} held--klein{% endif %}" role="img" aria-label="{{ site.name }} – {{ site.untertitel }}">
+<section class="held{% if page.url != '/' %} held--klein{% endif %}" role="img" aria-label="{{ site.titelzeile }}">
   <div class="held__text">
-    <p class="held__name">{{ site.name }}</p>
-    <p class="held__unter">{{ site.untertitel }}</p>
+    <p class="held__name">{{ site.titelzeile }}</p>
   </div>
 </section>
 

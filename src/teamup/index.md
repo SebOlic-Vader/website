@@ -2,6 +2,9 @@
 layout: seite.njk
 title: TeamUp
 permalink: /teamup/
+bereich:
+  titel: Werkzeuge
+  url: /werkzeuge/
 description: "TeamUp ist eine iPad-App für Lehrkräfte: Gruppen bilden, Sitzpläne erstellen, Turniere planen. Ohne Konto, ohne Internet, alle Daten bleiben auf dem Gerät."
 ---
 TeamUp ist eine App für das iPad, die Lehrkräften drei alltägliche Aufgaben abnimmt:

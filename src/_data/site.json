@@ -2,7 +2,7 @@
   "name": "Sebastian Oelmann",
   "url": "https://sebastianoelmann.de",
   "untertitel": "Gymnasiallehrer · Fortbildner · Lernen und Arbeiten mit KI",
-  "beschreibung": "Persönliche Website von Sebastian Oelmann: Gedanken zu Schule, Lernen und Künstlicher Intelligenz, die iPad-App TeamUp und Materialien aus Fortbildungen.",
+  "beschreibung": "Persönliche Website von Sebastian Oelmann: Gedanken zu Schule, Lernen und Künstlicher Intelligenz sowie eigene Werkzeuge wie die iPad-App TeamUp.",
   "email": "kontakt@sebastianoelmann.de",
   "navigation": [
     {
@@ -14,8 +14,8 @@
       "url": "/blog/"
     },
     {
-      "titel": "TeamUp",
-      "url": "/teamup/"
+      "titel": "Werkzeuge",
+      "url": "/werkzeuge/"
     },
     {
       "titel": "Über mich",
@@ -32,23 +32,13 @@
       "url": "/ueber-mich/"
     },
     {
-      "titel": "TeamUp (App)",
-      "url": "/teamup/",
-      "unter": [
-        {
-          "titel": "Support",
-          "url": "/teamup/support/"
-        },
-        {
-          "titel": "Datenschutz der App",
-          "url": "/teamup/datenschutz/"
-        }
-      ]
-    },
-    {
       "titel": "Werkzeuge",
-      "url": "https://wasserzeichen.sebastianoelmann.de/",
+      "url": "/werkzeuge/",
       "unter": [
+        {
+          "titel": "TeamUp (App)",
+          "url": "/teamup/"
+        },
         {
           "titel": "Wasserzeichen prüfen",
           "url": "https://wasserzeichen.sebastianoelmann.de/"
@@ -69,5 +59,6 @@
     "standWebsite": "21. Oktober 2026",
     "standTeamUp": "21. Oktober 2026"
   },
-  "portraet": "/assets/img/portraet.jpg"
+  "portraet": "/assets/img/portraet.jpg",
+  "titelzeile": "Lernen und Arbeiten mit KI"
 }
