@@ -1,0 +1,72 @@
+---
+layout: base.njk
+title: SCORM-Packer
+pfadTitel: SCORM-Packer
+permalink: /scorm-packer/
+bereich:
+  titel: Werkzeuge
+  url: /werkzeuge/
+description: "Der SCORM-Packer macht aus einer HTML-Datei, zum Beispiel aus der ByLKI, ein SCORM-1.2-Paket für die Lernplattform. Alles läuft im Browser, nichts wird hochgeladen."
+---
+<article class="text packer">
+  <h1>SCORM-Packer</h1>
+  <p>Der SCORM-Packer macht aus einer HTML-Datei, zum Beispiel aus der ByLKI, ein fertiges SCORM-1.2-Paket für deine Lernplattform. Alles läuft in deinem Browser; die Datei verlässt deinen Rechner nicht.</p>
+
+  <section class="packer__schritt">
+    <h2><span class="packer__nummer">1</span>HTML-Datei auswählen</h2>
+    <p class="packer__hinweis">Die Datei, die dein KI-Assistent erstellt hat, etwa ein Tracker, ein Arbeitsheft oder eine interaktive Übung. Alles Weitere passiert automatisch.</p>
+    <div class="packer__ablage" id="dropzone" role="button" tabindex="0" aria-label="HTML-Datei auswählen">
+      <svg class="packer__ikon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 2h8l5 5v15H6V2zm7 1.5V8h4.5L13 3.5zM8 12h8v1.5H8V12zm0 3h8v1.5H8V15zm0 3h5v1.5H8V18z"/></svg>
+      <p><strong>HTML-Datei hierher ziehen</strong> oder klicken zum Auswählen</p>
+      <p class="packer__klein">Eine einzelne .html-Datei</p>
+      <input type="file" id="fileInput" accept=".html,.htm,text/html" hidden>
+    </div>
+    <div class="file-info packer__datei" id="fileInfo"></div>
+  </section>
+
+  <section class="packer__schritt">
+    <h2><span class="packer__nummer">2</span>Titel festlegen</h2>
+    <p class="packer__hinweis">So heißt das Lernpaket später in deiner Lernplattform. Der Titel wird aus der Datei übernommen; du kannst ihn ändern.</p>
+    <label class="packer__label" for="titleInput">Titel des Lernpakets</label>
+    <input type="text" id="titleInput" class="packer__feld" placeholder="z. B. SOL-Tracker Klasse 11b" maxlength="120">
+  </section>
+
+  <section class="packer__schritt packer__schritt--aktion">
+    <h2><span class="packer__nummer">3</span>Paket erstellen</h2>
+    <p><button class="knopf knopf--primaer packer__knopf" id="buildBtn" disabled>SCORM-Paket erstellen (ZIP)</button></p>
+    <div class="success-box packer__erfolg" id="successBox"></div>
+
+    <details class="packer__details">
+      <summary>So bindest du das ZIP in deine Lernplattform ein</summary>
+      <div class="det-body">
+        <ol>
+          <li>Im Kurs oben rechts <strong>„Bearbeiten“</strong> einschalten.</li>
+          <li><strong>„Aktivität oder Material anlegen“</strong> → <strong>„Lernpaket“</strong> (SCORM) wählen.</li>
+          <li>Das heruntergeladene ZIP in das Feld <strong>„Paketdatei“</strong> ziehen.</li>
+          <li>Speichern. Das Paket öffnet sich direkt im Kurs und meldet den Fortschritt zurück.</li>
+        </ol>
+      </div>
+    </details>
+    <details class="packer__details">
+      <summary>Was passiert technisch?</summary>
+      <div class="det-body">
+        <p>Der Packer erzeugt ein SCORM-1.2-Paket (<code>imsmanifest.xml</code> und deine HTML als <code>index.html</code>). Fehlt in der HTML der SCORM-Code, baut der Packer eine <strong>SCORM-Brücke</strong> ein. Sie meldet das Paket bei der Lernplattform an, setzt den Status auf „abgeschlossen“ und speichert alles, was die Anwendung lokal ablegt (localStorage), zusätzlich im Kurs (<code>cmi.suspend_data</code>). So bleibt der Bearbeitungsstand auch an einem anderen Rechner erhalten. Enthält die Datei schon eigenen SCORM-Code, wird sie unverändert verpackt. Ohne Lernplattform, zum Beispiel beim Testen im Browser, funktioniert die Datei normal weiter.</p>
+        <p>Hinweis: SCORM&nbsp;1.2 erlaubt höchstens 4096 Zeichen Speicherdaten; darüber bleibt der localStorage als Fallback aktiv. Für die Bewertungsübersicht: Schreibt die Anwendung ihren Fortschritt (0 bis 100) in den localStorage-Schlüssel <code>scormbridge_score</code>, meldet die Brücke diesen Wert als Punktzahl an die Lernplattform.</p>
+      </div>
+    </details>
+    <details class="packer__details">
+      <summary>Weitere Dateien mitverpacken (optional, zum Beispiel Bilder)</summary>
+      <div class="det-body">
+        <input type="file" id="extraInput" multiple>
+        <div id="extraList" class="packer__klein"></div>
+      </div>
+    </details>
+  </section>
+
+  <div class="kasten packer__fuss">
+    <p><strong>Datenschutz:</strong> Alles läuft direkt in deinem Browser. Es wird nichts hochgeladen, keine Datei verlässt deinen Rechner.</p>
+    <p>Du kannst den Packer auch ohne Internet nutzen: <a href="/scorm-packer/SCORM-Packer.html" download>Offline-Fassung herunterladen</a> und per Doppelklick öffnen.</p>
+    <p class="packer__klein">SCORM 1.2 · entstanden für den Workshop „Vom Prompt zum Lernpaket“ · ALP Dillingen</p>
+  </div>
+</article>
+<script src="/assets/js/scorm-packer.js"></script>

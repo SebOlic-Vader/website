@@ -40,6 +40,10 @@
           "url": "/teamup/"
         },
         {
+          "titel": "SCORM-Packer",
+          "url": "/scorm-packer/"
+        },
+        {
           "titel": "Wasserzeichen prüfen",
           "url": "https://wasserzeichen.sebastianoelmann.de/"
         }

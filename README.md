@@ -33,6 +33,10 @@ npm run dev
 
 Dann `http://localhost:8080` im Browser öffnen.
 
+## SCORM-Packer
+
+Die Seite `/scorm-packer/` liegt in `src/scorm-packer/index.njk` (Oberfläche im Website-Layout); die Logik steht unverändert in `src/assets/js/scorm-packer.js` (Abschnitte ZIPLIB und CORE wie in der Übergabe des Workshops). `src/scorm-packer/SCORM-Packer.html` ist die Einzeldatei für die Offline-Nutzung und wird nur kopiert.
+
 ## Bilder
 
 Das Titelbild liegt als `src/assets/img/hero.jpg` (für das Web verkleinert). Die Originale aus Higgsfield und die nicht verwendeten Alternativen liegen in `bilder/titelbild/`; dieser Ordner wird nicht mit veröffentlicht.

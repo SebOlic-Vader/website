@@ -7,9 +7,10 @@ export default function (eleventyConfig) {
   eleventyConfig.addPlugin(HtmlBasePlugin);
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   eleventyConfig.addPassthroughCopy({ "src/admin": "admin" });
-  // SCORM-Packer (Workshop „Vom Prompt zum Lernpaket“): eine fertige HTML-Datei, wird unverändert nach /scorm-packer/ kopiert.
-  eleventyConfig.addPassthroughCopy({ "src/scorm-packer": "scorm-packer" });
-  eleventyConfig.ignores.add("src/scorm-packer/**");
+  // SCORM-Packer: Seite im Website-Layout; die Logik liegt in assets/js/scorm-packer.js,
+  // die Offline-Einzeldatei SCORM-Packer.html wird zum Herunterladen mitkopiert.
+  eleventyConfig.addPassthroughCopy({ "src/scorm-packer/SCORM-Packer.html": "scorm-packer/SCORM-Packer.html" });
+  eleventyConfig.ignores.add("src/scorm-packer/SCORM-Packer.html");
   eleventyConfig.addPassthroughCopy({ "src/.nojekyll": ".nojekyll" });
 
   eleventyConfig.addCollection("posts", (api) =>
