@@ -13,6 +13,21 @@ TeamUp ist eine App für das iPad. Sie übernimmt drei Aufgaben, die im Unterric
 - **Sitzpläne erstellen.** Die App zeigt das Klassenzimmer von oben; die Tische lassen sich frei anordnen.
 - **Turniere planen.** Spielpläne für den Sportunterricht oder für Klassenwettbewerbe.
 
+## Einblick
+
+<div class="galerie">
+  <figure>
+    <img src="/assets/img/teamup/gruppen.jpg" alt="Vier farbige Gruppenkacheln mit je fünf Namen in der App TeamUp" width="1200" height="812" loading="lazy">
+    <figcaption>Gruppen als farbige Kacheln. Antippen verschiebt eine Person, das Schloss hält eine Gruppe beim Neumischen fest.</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/img/teamup/sitzplan.jpg" alt="Sitzplan in TeamUp: Klassenzimmer von oben mit Whiteboard, Pult und zehn Tischen mit Namen" width="1200" height="900" loading="lazy">
+    <figcaption>Sitzplan als Klassenzimmer von oben. Tische lassen sich frei anordnen, Plätze per Antippen tauschen.</figcaption>
+  </figure>
+</div>
+
+Alle Namen auf den Bildern sind erfunden.
+
 ## Datenschutz
 
 Die App arbeitet ohne Benutzerkonto und ohne Internet. Sie speichert Klassenlisten nur auf dem Gerät, nimmt sie nicht in iCloud oder Backups auf und gibt sie nur weiter, wenn du selbst etwas teilst, zum Beispiel einen Sitzplan als PDF. Die App enthält keine Werbung und keine Analyse-Dienste.

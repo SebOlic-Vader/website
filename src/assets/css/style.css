@@ -202,3 +202,13 @@ th { font-weight: 500; }
 .packer__details p:last-child { margin-bottom: 0; }
 .packer__fuss p:last-child { margin: .4em 0 0; }
 @media (max-width: 640px) { .packer__schritt { padding: 16px; } .packer__ablage { padding: 22px 12px; } }
+
+/* Bildschirmfotos (TeamUp) */
+.kachel--bild { padding: 0; overflow: hidden; }
+.kachel--bild img { display: block; width: 100%; height: auto; border-bottom: 1px solid var(--linie-hell); }
+.kachel--bild .kachel__text { padding: 18px 20px 20px; }
+.kachel--bild h3 { margin-top: 0; }
+.galerie { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 1.2em 0 1.8em; }
+.galerie figure { margin: 0; border: 1px solid var(--linie); background: #fff; }
+.galerie img { display: block; width: 100%; height: auto; }
+.galerie figcaption { padding: 10px 14px; font-size: 14px; color: var(--text-leicht); border-top: 1px solid var(--linie-hell); }
