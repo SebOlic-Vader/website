@@ -14,7 +14,7 @@ Junge Menschen brauchen Gelegenheiten, eigenständig zu denken, ihr Lernen zu or
 
 ## Was meine Arbeit prägt
 
-Schulentwicklung ist seit Jahren Teil meiner Arbeit. In den Schulversuchen „KI@School“, „Prüfungskultur innovativ“ und „PROOF“ der Stiftung Bildungspakt Bayern habe ich daran mitgearbeitet, Unterricht und Prüfungen weiterzuentwickeln. Dabei ging es auch darum, digitale Werkzeuge und KI-Anwendungen als Bestandteil schulischen Lernens zu verankern und Unterricht an einer Lebenswelt auszurichten, in der diese längst eine Rolle spielen.
+Schulentwicklung ist seit Jahren Teil meiner Arbeit. In den Schulversuchen „KI@School“, „Prüfungskultur innovativ“ und „Proof“ der Stiftung Bildungspakt Bayern habe ich daran mitgearbeitet, Unterricht und Prüfungen weiterzuentwickeln. Dabei ging es auch darum, digitale Werkzeuge und KI-Anwendungen als Bestandteil schulischen Lernens zu verankern und Unterricht an einer Lebenswelt auszurichten, in der diese längst eine Rolle spielen.
 
 Ein Schwerpunkt war die Entwicklung neuer Prüfungsformate. Eines der Formate, an denen ich mitgearbeitet habe, wird inzwischen am Gymnasium als Schulaufgabenformat eingesetzt.
 
