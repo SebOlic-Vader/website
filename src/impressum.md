@@ -11,7 +11,7 @@ description: "Impressum der Website sebastianoelmann.de."
 <p>E-Mail: {{ site.email | mailLink | safe }}</p>
 </div>
 
-Verantwortlich für die Inhalte dieser Website ist die oben genannte Person. Dies ist eine private Website ohne gewerblichen Zweck.
+Verantwortlich für die Inhalte dieser Website ist die oben genannte Person. Dies ist eine private Website ohne gewerblichen Zweck. Alle Inhalte geben ausschließlich meine persönliche Auffassung wieder.
 
 ## Haftung für Links
 
