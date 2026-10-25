@@ -6,23 +6,27 @@ description: "Sebastian Oelmann: Gymnasiallehrer für Deutsch, Sport, Philosophi
 ---
 <img class="portraet" src="{{ site.portraet }}" alt="Porträt von Sebastian Oelmann" width="150" height="150" style="float:right;margin:0 0 1em 1.5em">
 
-Ich bin Gymnasiallehrer für Deutsch, Sport, Philosophie und Medienpädagogik. Momentan bin ich vollständig an das KI-Kompetenzzentrum (KIKO) der Akademie für Lehrerfortbildung und Personalführung in Dillingen an der Donau abgeordnet. Dort arbeite ich im Bereich „Lernen und Arbeiten mit KI-Anwendungen“ und entwickle dazu praxisnahe Fortbildungen für Lehrkräfte. Im Mittelpunkt meiner Arbeit steht die Entwicklung zeitgemäßen Unterrichts in einer Kultur der Digitalität, in dem Schülerinnen und Schüler mit KI-Anwendungen arbeiten und dabei lernen, selbst zu denken und sich selbst zu organisieren.
+Ich bin Gymnasiallehrer für Deutsch, Sport, Philosophie und Medienpädagogik. Derzeit bin ich vollständig an das KI-Kompetenzzentrum (KIKO) der Akademie für Lehrerfortbildung und Personalführung in Dillingen an der Donau abgeordnet. Im Bereich „Lernen und Arbeiten mit KI-Anwendungen“ entwickle ich praxisnahe Fortbildungen für Lehrkräfte.
 
-## Woher ich komme
+Mich beschäftigt, wie Schule junge Menschen darauf vorbereiten kann, ihre Lebenswelt selbstständig und kreativ mitzugestalten. Digitale Medien prägen unseren Alltag, unsere Arbeit und unsere Beziehungen. KI-Anwendungen verändern, wie wir schreiben, recherchieren und Entscheidungen treffen. Damit verändern sich auch die Anforderungen an Unterricht.
 
-Schulentwicklung ist seit Jahren mein Praxisfeld. In den Schulversuchen „KI@School“ und „Prüfungskultur innovativ“ habe ich daran mitgearbeitet, digitale Werkzeuge und KI-Anwendungen als festen Bestandteil eines Unterrichts zu verstehen, der die Lebenswelt der Schülerinnen und Schüler ernst nimmt. Unterricht soll diese Lebenswelt abbilden und zugleich so professionell gestaltet sein, dass sich junge Menschen in einer hochgradig mediatisierten und digitalisierten Welt zielsicher zurechtfinden, einer Welt, die ihnen viel abverlangt.
+Junge Menschen brauchen Gelegenheiten, eigenständig zu denken, ihr Lernen zu organisieren und mit Veränderungen umzugehen. Dazu gehört auch die Bereitschaft, über die Schulzeit hinaus dazuzulernen. Solche Zukunftskompetenzen entstehen nicht von selbst. Sie brauchen einen Unterricht, der sie gezielt fördert und digitale Medien und KI-Anwendungen reflektiert einbezieht.
 
-Dabei konnte ich mich konkret in die Gestaltung vollständig neuer Prüfungsformate einbringen, von denen eines inzwischen als Schulaufgabenformat Einzug in das Gymnasium gefunden hat.
+## Was meine Arbeit prägt
 
-Diese Erfahrungen fließen unter anderem in meine Fortbildungen ein. Ich möchte zeigen, wie zeitgemäßer Unterricht aussehen kann: mit Beispielen aus der Praxis, die sich bewährt haben, mit Einblicken in das, was nicht funktioniert hat, und mit dem Blick darauf, wo wir uns weiterentwickeln können.
+Schulentwicklung ist seit Jahren Teil meiner Arbeit. In den Schulversuchen „KI@School“ und „Prüfungskultur innovativ“ habe ich daran mitgearbeitet, Unterricht und Prüfungen weiterzuentwickeln. Dabei ging es auch darum, digitale Werkzeuge und KI-Anwendungen als Bestandteil schulischen Lernens zu verankern und Unterricht an einer Lebenswelt auszurichten, in der diese längst eine Rolle spielen.
 
-Dahinter steht ein Ziel. Schule, wie sie über Jahrzehnte gewachsen ist, verdient es, überdacht zu werden. Was sich bewährt hat, darf bleiben. Was sich verbessern lässt, sollte verbessert werden, damit Unterricht für Schülerinnen und Schüler gerechter und fairer wird und näher an ihrer Lebenswelt liegt.
+Ein Schwerpunkt war die Entwicklung neuer Prüfungsformate. Eines der Formate, an denen ich mitgearbeitet habe, wird inzwischen am Gymnasium als Schulaufgabenformat eingesetzt.
+
+Diese Erfahrungen prägen meine Fortbildungen. Ich zeige, was sich in der Praxis bewährt hat, spreche darüber, was nicht funktioniert hat, und gehe der Frage nach, was wir daraus für die Weiterentwicklung von Unterricht lernen können. Mir ist wichtig, dass Lehrkräfte konkrete Anregungen für ihre eigene Arbeit mitnehmen und diese an ihre Schülerinnen und Schüler anpassen können.
+
+Schule weiterzuentwickeln bedeutet für mich, bestehende Routinen zu hinterfragen und Bewährtes bewusst zu erhalten. Mein Ziel ist ein Unterricht, der unterschiedlichen Lernvoraussetzungen gerechter wird, faire Prüfungen ermöglicht und an die Lebenswelt der Schülerinnen und Schüler anknüpft.
 
 ## Meine Schwerpunkte
 
-- **Lernen und Arbeiten mit KI-Anwendungen.** Ich entwickle Fortbildungen für Lehrkräfte aller Schularten, von den Grundlagen bis zu Unterrichtsszenarien und Prüfungsformaten.
-- **Selbstreguliertes Lernen.** Mich interessiert, wie Lernende mit digitalen Werkzeugen eigenständiger werden und welche Aufgaben Lehrkräfte dabei behalten.
-- **Eigene Werkzeuge.** Was mir im Alltag fehlt, baue ich mir selbst. Eine Auswahl steht unter [Werkzeuge](/werkzeuge/).
+- **Lernen und Arbeiten mit KI-Anwendungen.** Ich entwickle Fortbildungen für Lehrkräfte aller Schularten. Das Spektrum reicht von Grundlagen über konkrete Unterrichtsszenarien bis zu Prüfungsformaten.
+- **Selbstreguliertes Lernen.** Mich beschäftigt, wie digitale Werkzeuge Lernende dabei unterstützen können, ihr Lernen eigenständig zu planen, zu gestalten und zu reflektieren, und wie Lehrkräfte sie dabei begleiten.
+- **Eigene Werkzeuge.** Was mir im Alltag fehlt, baue ich mir selbst. Eine Auswahl findest du unter [Werkzeuge](/werkzeuge/).
 
 ## Kontakt
 
