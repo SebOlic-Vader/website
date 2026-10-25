@@ -14,7 +14,7 @@ Junge Menschen brauchen Gelegenheiten, eigenständig zu denken, ihr Lernen zu or
 
 ## Was meine Arbeit prägt
 
-Schulentwicklung ist seit Jahren Teil meiner Arbeit. In den Schulversuchen „KI@School“ und „Prüfungskultur innovativ“ habe ich daran mitgearbeitet, Unterricht und Prüfungen weiterzuentwickeln. Dabei ging es auch darum, digitale Werkzeuge und KI-Anwendungen als Bestandteil schulischen Lernens zu verankern und Unterricht an einer Lebenswelt auszurichten, in der diese längst eine Rolle spielen.
+Schulentwicklung ist seit Jahren Teil meiner Arbeit. In den Schulversuchen „KI@School“, „Prüfungskultur innovativ“ und „PROOF“ der Stiftung Bildungspakt Bayern habe ich daran mitgearbeitet, Unterricht und Prüfungen weiterzuentwickeln. Dabei ging es auch darum, digitale Werkzeuge und KI-Anwendungen als Bestandteil schulischen Lernens zu verankern und Unterricht an einer Lebenswelt auszurichten, in der diese längst eine Rolle spielen.
 
 Ein Schwerpunkt war die Entwicklung neuer Prüfungsformate. Eines der Formate, an denen ich mitgearbeitet habe, wird inzwischen am Gymnasium als Schulaufgabenformat eingesetzt.
 
@@ -25,8 +25,10 @@ Schule weiterzuentwickeln bedeutet für mich, bestehende Routinen zu hinterfrage
 ## Meine Schwerpunkte
 
 - **Lernen und Arbeiten mit KI-Anwendungen.** Ich entwickle Fortbildungen für Lehrkräfte aller Schularten. Das Spektrum reicht von Grundlagen über konkrete Unterrichtsszenarien bis zu Prüfungsformaten.
-- **Selbstreguliertes Lernen.** Mich beschäftigt, wie digitale Werkzeuge Lernende dabei unterstützen können, ihr Lernen eigenständig zu planen, zu gestalten und zu reflektieren, und wie Lehrkräfte sie dabei begleiten.
-- **Eigene Werkzeuge.** Was mir im Alltag fehlt, baue ich mir selbst. Eine Auswahl findest du unter [Werkzeuge](/werkzeuge/).
+- **Mensch und KI.** Wie verändert KI unser Denken, unsere Arbeit und unser Zusammenleben? Was bedeutet das für Schule? Dazu entwickle ich derzeit mehrere Fortbildungen, unter anderem zu Zukunftsszenarien zwischen Utopie und Dystopie.
+- **Medienerziehung und KI.** Schülerinnen und Schüler sollen KI-gestützte Medien verstehen, einordnen und verantwortungsvoll nutzen können. Mich beschäftigt, wie Unterricht diese Fähigkeiten fördern kann.
+- **Selbstreguliertes, selbstorganisiertes und projektorientiertes Lernen.** Mich interessiert, wie digitale Werkzeuge Lernende dabei unterstützen können, ihr Lernen eigenständig zu planen, zu gestalten und zu reflektieren, und wie Lehrkräfte sie dabei begleiten. Projektorientiertes Arbeiten bietet dafür aus meiner Sicht besonders gute Möglichkeiten: Lernende treffen Entscheidungen, übernehmen Verantwortung und reflektieren ihren Arbeitsprozess.
+- **Eigene Werkzeuge.** Was mir im Alltag fehlt, baue ich mir bisweilen selbst und teile dies gern. Eine Auswahl findest du unter [Werkzeuge](/werkzeuge/).
 
 ## Kontakt
 
